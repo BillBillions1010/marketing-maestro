@@ -8,10 +8,10 @@
   "users": [],
   "regions": [
     {
-      "id": "test-region-eu",
-      "name": "EU",
-      "currency_code": "eur",
-      "tax_rate": 0,
+      "id": "test-region-us",
+      "name": "US",
+      "currency_code": "usd",
+      "tax_rate": 0.07,
       "payment_providers": [
         "manual"
       ],
@@ -19,6 +19,8 @@
         "manual"
       ],
       "countries": [
+        "us",
+        "eu",
         "gb",
         "de",
         "dk",

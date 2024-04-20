@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CDNs</title>
+
+</head>
+<body>
+<div>
+<ul>
+<p>
+List of CDNs
+</p>
+<li>React</li>
+<li>create-react-class</li>
+<li>typescript</li>
+<li>P5js</li>
+<li>JQuery</li>
+<li>JQueryUI</li>
+<li>jqueryCookie</li>
+<li>jqueryValidate</li>
+<li>BootStrap</li>
+<li>vue</li>
+<li>ReactDOM</li>
+<li>Mermaid for MD</li>
+<li>Animate</li>
+<li>Font-Awesome</li>
+<li>Material-UI</li>
+<li>tailwind</li>
+<li>TypeScript</li>
+<li>TypeScript</li>
+
+</ul>
+</div>
+
+<!-- Billion's CDNs -->
+
+<!--  Create React Class  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/create-react-class/15.7.0/create-react-class.min.js" referrerpolicy="no-referrer"></script>
+<!--  typescript  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typescript/5.4.3/typescript.min.js" integrity="sha512-ziE9SrlsFN2MZLPWW073lYZrWVCKc9I5pmHhTXS3jAZBCLUVqS2eEZXRZiIgd0PyEF2Kz3f03/1Aqe/ec5rt1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  tailwind  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+<!--  Material-UI  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/material-ui/4.12.4/index.js" integrity="sha512-wEnX3bNd/CdyrOFR0KIGlHihK/w9x3/It8Vc18aymEF/F/f1q0Mq8T+GSxF1wYUACLEGECapuIYQdQlKY1LBJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  Font-Awesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Animate  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+<!--  Mermaid for MD  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js" integrity="sha512-Tuz9Z/bnif7xKYuhGUzgvkUGgDshiTaqtjrJ9QqE4karc+Q1BOLbFkkMTfAix2Qi4IhHI/I0QaImvC/EhBrohA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  jQuery Cookies  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  jQuery Validate   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  jQueryUI  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  jQuery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  ReactDOM  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" integrity="sha512-Pa5VYQwTzhqv65P3qWoX2yUEPKK3Zhj4govMP/N32+MT5aPzr2Rrgp5rG9gxtsn+0G1HnswCFfDIeIOD+fHJAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  Vue  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.cjs.js" integrity="sha512-7aGLTxGtBglNVIHZhvuDN5WwqeNYPW3sd8oGm97nXVvJMZFyWNOG6zkc7p6NQqq2yeBr+/g+X0dxHLKQCCpZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  BootStrap  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  P5js  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js" integrity="sha512-eu9vkh+EbAsW3fMmPTj/DP5W3UegIdu0Z/OABMocvoofx43MYBkcQ9hRIVxZndV1vcCYQwBg+U1PkWl04TD0Jg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--  React  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-/MDiaYXn6ovlyWgpg1AzCTYqkxQ75qoICm2Jx81CI80QFfoxlSema6V3DWLVp977EMFRoiCcoM6Zs5PNlgI1KA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

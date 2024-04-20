@@ -1,0 +1,43 @@
+<!DOCTYPE html >
+<html>
+<head><meta charset="us-ascii"><meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<style type="text/css">body {background-color: #333; color: #eee;}
+	</style>
+	<title>Home - RetroEmu.lol</title>
+	<script type='text/Babel'>
+import React from 'react';
+import Header from 'components/Header.tsx';
+
+export default function Page() {
+  return (
+    <div>
+      <Header brand='RetroEmu.lol' />
+      <div>index.html</div>
+      <footer />
+    </div>
+  );
+};
+
+const msg='Hello World!';
+const root=document.getElementById('root');
+
+
+
+export const Homepage = () {
+  return(<div>hello from homepage</div>);
+};
+
+root.innerHTML=<Homepage />;
+document.write(msg);
+</script>
+</head>
+<body id="root">
+<div id="main"></div>
+
+<p>poop</p>
+
+<p>public_html/index.html</p>
+
+<p></p>
+</body>
+</html>
