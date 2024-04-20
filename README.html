@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='stylesheet' href='./Frontend(nextjs-material-kit)/styles/css/material-kit-react.css.map' />
+    <link rel="stylesheet" type='text/scss' href="./Frontend(nextjs-material-kit)/styles/scss/nextjs-material-kit.scss" />
+    <style>
+        * { position: relative; margin: 5px auto; padding: 5px;}
+        html { width: 100%; max-height: 90vh; }
+        body {background-color:#333; color: #3e7; text-shadow: 2px 3px 2px #111; }
+        header, section > h2 { text-align: center; }
+        header p, .notes { text-align: left; left: 200px;}
+        div { border: 2px solid #eee; box-shadow: 0 0 10px #eee;}
+        section { background-color: rgba(20, 40, 120, 0.6); color: #eee; }
+        article .container { left: -2em; }
+        button { align-items: center; }
+        .container { padding: 5px auto; max-width: 80%; }
+        .tile {  margin: 5px 1rem; min-width: calc((100% - 50px) / 3); height:400px; font-size: 18; box-shadow: 4px 6px 2px #111;}
+        .tile > * { margin: calc((100% - 210px) / 3) auto; }
+        .tile > img { border: 1px solid #e0eeef; padding-bottom: 20px; position: relative; left: 20px; width: 80%; height: 12rem; }
+        .tile h2 {font-size: 32;}
+        .tile a { color: inherit; font-weight: 500;}
+        .tile:hover { text-decoration: underline; font-size: ease-in(32px); color: #0ef; }
+        .inline { display: flex; flex-direction: row; }
+        .story {left:-200px; max-width: 800px; }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <header>
+            <h1>Marketing Maestro Readme</h1>
+            <p>The Client, Store and Logic Layers are handled using three libraries.</p>
+        </header>
+        <main>
+            <article>
+                <secton class="container inline">
+                    <div class='tile'>
+                        <img width='80%' height='auto' src='https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1693854676/catalog/1698767495558377472/fvwtrjkkn34cfgqfagbb.jpg' />
+                        <h2>Medusajs</h2>
+                        <p>Backend logic and commerce tools to interact with storefront</p>
+                        <a href='https://docs.medusajs.com/storefront/roadmap'><button>View Modules</button></a>
+                    </div>
+                    <div class='tile'>
+                        <img width="80%" height='auto' src='https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nextjs-material-kit/nextjs-material-kit.jpg' />
+                        <h2>Nextjs-Material-Kit</h2>
+                        <p>UI Components & Pages (client layer)</p>
+                        <a href='https://www.creative-tim.com/bits/'><button>Get UI Elements</button></a>
+                    </div>
+                    <div class='tile'>
+                        <img width='80%' height="auto" src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/180px-Postgresql_elephant.svg.png' />
+                        <h2>PostgreSQL</h2>
+                        <p>Database (Products, Users, Domain)</p>
+                        <a href='http://127.0.0.1:2222/help/help/desktop_deployment.html'><button>Desktop Deployment</button></a>
+                    </div>
+                    
+                </secton>
+                <secton><h2>Getting Started and Implimentation</h2></secton>
+                <secton class="notes">
+                    <div class="story">
+                        <h2>Project Overview</h2>
+                        <p>Market Maestro is an e-commerce web application that combines MedusaJS for the storefront logic, Next.js Material Kit for the UI components, and PostgreSQL for the database. An excellent combination, This will provide a robust and scalable e-commerce platform to interact with the backend's REST APIs with a modern and responsive user interface.
+                        <br />
+                        <h3>MedusaJS</h3>
+                        <p>MedusaJS is a headless commerce engine that allows you to build custom e-commerce experiences. It provides a flexible and extensible architecture, making it easy to integrate with various front-end frameworks and databases. MedusaJS will handle the core e-commerce functionality, such as product management, cart management, order processing, and payment integration.</p> 
+                        <p>As your storefront connects to the Medusa backend, you need a way to interact with the backend's REST APIs. There are three ways to do so, based on your type of project:<br />
+                            <a href='https://docs.medusajs.com/medusa-react/overview'>Medusa React</a>: Can be used in any React-based project. For example, in a Next.js storefront.<br />
+                            <a href='https://docs.medusajs.com/js-client/overview'>Medusa JS Client</a>: Can be used in any JavaScript and NPM based project. For example, in a Nuxt storefront.<br />
+                            <a href='https://docs.medusajs.com/api/store'>Store REST APIs</a>: You can send requests directly to the API Routes without using Medusa's clients.
+                        </p>              
+                        <br />
+                        <h3>Next.js Material Kit</h3>
+                        <p>Next.js Material Kit is a React UI library based on Material Design principles. It offers a wide range of pre-built components that are responsive, accessible, and customizable. By using Next.js Material Kit, you can create a visually appealing and user-friendly interface for your e-commerce application.</p>
+                        <br />                        
+                        <h3>PostgreSQL</h3>
+                        <p>PostgreSQL is a powerful and open-source relational database management system. It is known for its reliability, data integrity, and advanced features. PostgreSQL will serve as the database for storing customer information, transaction records, and product data.</p>
+                        <br />                       
+                        <h3>Project Structure</h3>
+                        <p>Here's a high-level overview of the project structure:</p>
+                    <pre>                      
+                        Market-Maestro/
+                        ├── components/
+                        │   ├── layout/
+                        │   ├── product/
+                        │   ├── cart/
+                        │   ├── checkout/
+                        │   └── ...
+                        ├── pages/
+                        │   ├── index.js
+                        │   ├── product/[id].js
+                        │   ├── cart.js
+                        │   ├── checkout.js
+                        │   └── ...
+                        ├── medusa/
+                        │   ├── config/
+                        │   ├── migrations/
+                        │   ├── seed/
+                        │   └── ...
+                        ├── public/
+                        ├── styles/
+                        ├── utils/
+                        ├── next.config.js
+                        ├── package.json
+                        └── ...
+                    </pre>               
+                        <p>components/: This directory will contain reusable React components for different sections of the application, such as layout, product listing, cart, and checkout.</p>
+                        <p>pages/: Next.js uses a file-based routing system, where each file in this directory corresponds to a route in the application.</p>
+                        <p>medusa/: This directory will contain the MedusaJS configuration, database migrations, and seed data.</p>
+                        <p>public/: This directory is for static assets like images, fonts, and other files.</p>
+                        <p>styles/: This directory will contain global and component-level styles using CSS or a CSS-in-JS solution like styled-components.</p>
+                        <p>utils/: This directory can hold utility functions and helpers used throughout the application.</p>
+                        <h3>Development Process</h3>
+                        <p>Set up the project: Initialize a new Next.js project and install the required dependencies, including MedusaJS, Next.js Material Kit, and the necessary PostgreSQL client library.</p>
+                        <p>Configure MedusaJS: Set up MedusaJS by creating the necessary configuration files and defining the database connection details for PostgreSQL.</p>
+                        <p>Design the database schema: Define the database schema for storing customer information, transaction records, and product data. Create the necessary tables and relationships using PostgreSQL.</p>
+                        <p>Implement the storefront: Build the storefront using Next.js and integrate MedusaJS for handling e-commerce functionality. Use Next.js Material Kit components to create the user interface.</p>
+                        <p>Develop core features: Implement essential features such as product listing, cart management, checkout process, and order tracking.</p>
+                        <p>Integrate payment gateways: Integrate popular payment gateways like Stripe, PayPal, or other preferred options using MedusaJS's payment provider plugins.</p>
+                        <p>Enhance user experience: Continuously improve the user experience by adding features like search, filtering, product recommendations, and user reviews.</p>
+                        <p>Test and deploy: Thoroughly test the application locally and on a staging environment. Once satisfied with the functionality and performance, deploy the application to a production server. </p>
+                        <h3>Best Practices</h3> 
+                        <p>Follow MedusaJS conventions: Adhere to the recommended practices and conventions provided by MedusaJS for better maintainability and future upgrades.</p>
+                        <p>Write clean and modular code: Organize your code into reusable and testable components, following best practices for React and Next.js development.</p>
+                        <p>Implement proper error handling: Implement robust error handling mechanisms to provide a smooth user experience and facilitate debugging.</p>
+                        <p>Optimize performance: Optimize the application's performance by leveraging Next.js's built-in features like code splitting, static site generation, and server-side rendering.</p>
+                        <p>Ensure accessibility: Design the user interface with accessibility in mind, following best practices for web accessibility standards.</p>
+                        <p>Implement security measures: Implement appropriate security measures, such as input validation, sanitization, and secure communication protocols, to protect user data and prevent vulnerabilities.</p>
+                        <p>Continuously test and monitor: Implement automated testing strategies and continuously monitor the application's performance and behavior in production.</p>
+                        <h3>By following these steps and best practices, you can create a robust and scalable e-commerce application that provides an excellent user experience while leveraging the power of MedusaJS, Next.js Material Kit, and PostgreSQL.</h3>
+                        </p>
+                        </div>
+                        <div class="story">
+                            <h3>Backstory</h3>
+                            <p>In the heart of the city, where the neon lights flickered like the pulse of a giant, living organism, there was a young man named Eli. He was an unassuming figure, with a mop of unruly hair and a pair of glasses that perpetually slid down his nose. But beneath this ordinary exterior, Eli possessed a remarkable gift—a talent for technology and a heart for helping others escape the relentless cycle of big business e-commerce loops.</p>
+                            <p>Eli had grown up in a world dominated by colossal online marketplaces, where small businesses struggled to survive and consumers were often lost in a maze of endless products and impersonal transactions. He watched as local stores closed their doors, one by one, their unique offerings and personal touches unable to compete with the convenience and pricing of the giants.</p>
+                            <p>But Eli saw a different path. He envisioned a platform that would not only level the playing field for small businesses but also restore the human connection that had been lost in the digital age. With a few strokes of his keyboard and the click of a mouse, he began to build something new—a seamless app that would change everything.</p>
+                            <p>The app, which he named "Marketplace Maestro," was a marvel of modern technology. It used sophisticated algorithms to connect consumers with local vendors, ensuring that each purchase supported the community and kept the economy vibrant. The interface was intuitive, the transactions smooth, and the customer service personal and responsive.</p>
+                            <p>Word of Eli's creation spread like wildfire. Small business owners, who had once viewed the digital world as a threat, now saw it as their salvation. They flocked to Marketplace Maestro, eager to showcase their wares to a wider audience without sacrificing their values or their independence.</p>
+                            <p>Consumers, too, were drawn to the app's charm. They delighted in discovering unique products and knowing that their choices were making a real difference. They shared stories of the treasures they found and the people behind them, creating a tapestry of connections that spanned the city.</p>
+                            <p>Eli's gift had given them all a way out of the cycle, a way to reclaim their power in a world that had made them feel small and insignificant. And as the community thrived, so did Eli, his heart full of the joy that comes from giving the best gift of all—the gift of hope and opportunity.</p>
+                            <p>In the end, Eli's Marketplace Maestro was more than just an app. It was a movement, a beacon of light in a world that had grown too accustomed to the shadows. And for Eli, it was the realization of a dream—a world where technology served humanity, not the other way around.</p>
+                            <p>And so, the young man with the sliding glasses and the quiet demeanor became a hero in his own right, not with a cape or a mask, but with a mind for innovation and a heart for change.</p>
+                        </div>
+                    </div>
+                </secton>
+                <section>
+                    <h2>Misc. Notes</h2>
+                    <div>
+                        <h3>Command List</h3>
+                        <h4>yarn dlx @yarnpkg/sdks</h4><p>The yarn dlx @yarnpkg/sdks command will look at the content of your root package.json to figure out the SDKs you need - it won't look at the dependencies from any other workspaces.</p>
+                        <h4>yarn dlx @yarnpkg/sdks vscode vim ...</h4><p>Generate both the base SDK and the editor settings.</p>
+                        <code>yarn dlx @yarnpkg/sdks</code><p>Update all installed SDKs & editor settings.</p>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer>
+            Citations:
+            [1] https://bookriot.com/very-short-stories/
+            [2] https://www.reddit.com/r/writing/comments/y9vbwu/under_1000_words/
+            [3] https://stevecaplin.com/thousand-word-stories/
+            [4] https://www.oprah.com/omagazine/heartwarming-stories-about-the-best-gifts-ever-given/all
+            [5] https://www.ecommercefuel.com/team/
+            [6] https://www.britannica.com/topic/The-Gift-of-the-Magi
+            [7] https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-e-commerce
+            [8] https://blog.udemy.com/flash-fiction-examples/
+            [9] https://www.wonderbly.com/pages/category-adult-books
+            [10] https://theflowerletters.com
+            [11] https://tim.blog/2024/01/23/noah-kagan-million-dollar-weekend/
+            [12] https://theshortstory.co.uk/resources/free-short-stories/
+            [13] https://www.notboring.co/p/shein-the-tiktok-of-ecommerce
+            [14] https://gwydionmadawc.com/060-my-own-science-fiction/710-stories-under-1000-words/
+            [15] https://welcome.storyworth.com
+            [16] https://www.reddit.com/r/Entrepreneur/comments/16jnkjq/whats_the_catch_with_these_young_67_figure/
+            [17] https://makingconversationscount.com/building-a-business-on-amazon/
+            [18] https://www.goodreads.com/en/book/show/63945326
+            [19] https://www.wattpad.com/258849965-english-stories-short-story-what%27s-to-come-800
+            [20] https://www.amazon.com/Greatest-Gift-Christmas-Tale/dp/1476778868
+        </footer>
+    </div>
+</body>
+</html>

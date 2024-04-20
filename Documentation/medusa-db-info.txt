@@ -1,0 +1,70 @@
+To connect to DB run "runpsql" in the terminal
+
+# Configure info
+medusa-db=# \dconfig
+List of non-default configuration parameters
+Parameter|Value
+application_name|psql
+client_encoding|WIN1252
+config_file|C:/Program Files/PostgreSQL/16/data/postgresql.conf
+data_directory|C:/Program Files/PostgreSQL/16/data
+default_text_search_config|pg_catalog.englishhba_file|C:/Program Files/PostgreSQL/16/data/pg_hba.conf
+ident_file|C:/Program Files/PostgreSQL/16/data/pg_ident.conf
+lc_messages|English_United States.1252
+lc_monetary|English_United States.1252
+lc_numeric|English_United States.1252
+lc_time|English_United States.1252
+listen_addresses|*
+log_file_mode|0640
+log_timezone|America/Denver
+logging_collector|on
+port|8000
+ssl|on
+ssl_ca_file|root.crt
+ssl_crl_file|root.crl
+TimeZone|America/Denver
+(20 rows)
+
+# Variables
+medusa-db=# \dD
+List of domains
+Schema|Name|Type|Collation|Nullable|Default|Check
+(0 rows)
+
+medusa-db=# \set
+AUTOCOMMIT = 'on'
+COMP_KEYWORD_CASE = 'preserve-upper'
+DBNAME = 'medusa-db'
+ECHO = 'none'
+ECHO_HIDDEN = 'off'
+ENCODING = 'WIN1252'
+FETCH_COUNT = '0'
+HIDE_TABLEAM = 'off'
+HIDE_TOAST_COMPRESSION = 'off'
+HISTCONTROL = 'none'
+HISTSIZE = '500'
+HOST = 'localhost'
+IGNOREEOF = '0'
+LAST_ERROR_MESSAGE = ''
+LAST_ERROR_SQLSTATE = '00000'
+ON_ERROR_ROLLBACK = 'off'
+ON_ERROR_STOP = 'off'
+PORT = '8000'
+PROMPT1 = '%/%R%x%# '
+PROMPT2 = '%/%R%x%# '
+PROMPT3 = '>> '
+QUIET = 'off'
+SERVER_VERSION_NAME = '16.2'
+SERVER_VERSION_NUM = '160002'
+SHELL_ERROR = 'false'
+SHELL_EXIT_CODE = '0'
+SHOW_ALL_RESULTS = 'on'
+SHOW_CONTEXT = 'errors'
+SINGLELINE = 'off'
+SINGLESTEP = 'off'
+USER = 'billbillions'
+VERBOSITY = 'default'
+VERSION = 'PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit'
+VERSION_NAME = '16.2'
+VERSION_NUM = '160002'
+medusa-db

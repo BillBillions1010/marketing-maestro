@@ -1,0 +1,61 @@
+{
+  "name": "market-maestro",
+  "version": "0.0.2",
+  "description": "E-commerce web app by BillBillions1010 using Medusajs, Next-Material-Kit and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Market-Maestro"
+  },
+  "keywords": [
+    "marketmaestro",
+    "typescript",
+    "javsscript",
+    "web",
+    "web Development",
+    "dev",
+    "nextjs",
+    "next-material-kit",
+    "medusajs",
+    "ecommerce",
+    "online store",
+    "postgresql",
+    "weeklydev",
+    "project"
+  ],
+  "author": "billbillions1010",
+  "license": "MIT",
+  "dependencies": {
+    "postgresql": "^0.0.1",
+    "nextjs": "^0.0.1",
+    "@medusajs/medusa":"^0.1.0",
+    "@medusajs/admin":"^0.1.0",
+    "@medusajs/admin-ui":"^0.1.0",
+    "@medusajs/api-key":"^0.1.0",
+    "@medusajs/authentication":"^0.1.0",
+    "@medusajs/cart":"^0.1.0",
+    "@medusajs/client-types":"^0.1.0",
+    "@medusajs/core-flows":"^0.1.0",
+    "@medusajs/event-bus-local":"^0.1.0",
+    "@medusajs/event-bus-redis":"^0.1.0",
+    "@medusajs/icons":"^0.1.0",
+    "@medusajs/inventory":"^0.1.0",
+    "@medusajs/inventory-next":"^0.1.0",
+    "@medusa/webpack-plugin":"^0.1.0",
+    "@medusa/medusa-cli":"^0.1.0",
+    "@medusa/cli":"^0.1.0",
+    "@medusajs/utils": "1.11.8",
+    "@medusajs/pricing":"^0.1.0",
+    "@medusajs/link-modules":"^0.1.0",
+    "@medusajs/sales-channel":"^0.1.0",
+    "@medusajs/stock-location-next":"^0.1.0",
+    "@medusajs/stock-location":"^0.1.0",
+    "@medusajs/payment-stripe":"^0.1.0",
+    "@medusajs/openapi-typescript-codegen":"^0.1.0",
+    "@medusajs/medusa-oas-cli": "0.3.2"
+  }
+
+}
