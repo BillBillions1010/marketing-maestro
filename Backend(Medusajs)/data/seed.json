@@ -9,6 +9,14 @@
     {
       "email": "billbillions1010@gmail.com",
       "password": "Qwerty123!"
+    },
+    {
+      "email": "admin@medusa-test.com",
+      "password":"supersecret"
+    },
+    {
+      "email": "box52llc2gmail.com",
+      "password": "@echooff0A"
     }
   ],
   "regions": [
