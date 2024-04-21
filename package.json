@@ -7,5 +7,12 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "packageManager": "pnpm@9.0.0+sha256.bdfc9a7b372b5c462176993e586492603e20da5864d2f8881edc2462482c76fa",
+  "dependencies": {
+    "@medusajs/medusa": "^1.20.4",
+    "@tanstack/react-query": "~4.22.4",
+    "medusa-react": "^9.0.16",
+    "yarn": "^1.22.22"
+  }
 }
