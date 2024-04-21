@@ -1,34 +1,36 @@
-<!DOCTYPE html >
-<html>
-<head><meta charset="us-ascii"><meta name='viewport' content='width=device-width, initial-scale=1.0' />
-	<style type="text/css">body {background-color: #333; color: #eee;}
-	</style>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="us-ascii"><meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<style type="text/css">body {background-color: #333; color: #eee;}</style>
 	<title>Home - RetroEmu.lol</title>
 	<script type='text/Babel'>
 import React from 'react';
 import Header from 'components/Header.tsx';
+import Footer from 'components/Footer.tsx'
 
 export default function Page() {
   return (
     <div>
-      <Header brand='RetroEmu.lol' />
-      <div>index.html</div>
-      <footer />
+      <Header brand='RetroEmu.lol'/>
+      <main>
+        <h1>This is the Main Page</h1>
+      </main>
+      <Footer />
     </div>
   );
 };
 
-const msg='Hello World!';
+const msg='Retroemu.lol - Homepage';
+
 const root=document.getElementById('root');
 
-
-
-export const Homepage = () {
-  return(<div>hello from homepage</div>);
+export const Homepage = () => {
+  return(<div>{msg}</div>);
 };
 
 root.innerHTML=<Homepage />;
-document.write(msg);
+document.write("DO it work?");
 </script>
 </head>
 <body id="root">
