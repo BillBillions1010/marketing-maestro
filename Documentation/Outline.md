@@ -10,7 +10,7 @@ PostgreSQL is a powerful and open-source relational database management system. 
 
  **Here's a high-level overview of the project structure:**
 
-    my-ecommerce-app/
+    MarketMaestro/
     ├── components/
     │   ├── layout/
     │   ├── product/
@@ -49,10 +49,10 @@ PostgreSQL is a powerful and open-source relational database management system. 
 ## Development Process
 
 ### Set up the project: 
-    Initialize a new Next.js project and install the requireddependencies, including MedusaJS, Next.js Material Kit, and the necessaryPostgreSQL client library.
+    Initialize a new Next.js project and install the required dependencies, including MedusaJS, Next.js Material Kit, and the necessaryPostgreSQL client library.
 
 **Configure MedusaJS**: 
-Set up MedusaJS by creating the necessary configurationfiles and defining the database connection details for PostgreSQL.
+Set up MedusaJS by creating the necessary configuration files and defining the database connection details for PostgreSQL.
 
 **Design the database schema**: 
 Define the database schema for storing customerinformation, transaction records, and product data. Create the necessarytables and relationships using PostgreSQL.
